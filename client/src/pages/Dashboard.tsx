@@ -1,5 +1,3 @@
-
-
 import { useState } from "react"
 import { UploadSection } from "@/components/upload-section"
 import { QuerySection } from "@/components/query-section"
@@ -13,7 +11,7 @@ interface QueryResponse {
   }>
 }
 
-export default function Home() {
+export default function Dashboard() {
   const [currentAnswer, setCurrentAnswer] = useState<QueryResponse | null>(null)
 
   const handleAnswerReceived = (response: QueryResponse) => {

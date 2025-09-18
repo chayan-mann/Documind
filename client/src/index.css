@@ -6,8 +6,8 @@
 :root {
   /* Updated color tokens to match blue and white theme */
   --background: oklch(1 0 0); /* White background */
-  --foreground: oklch(0.25 0.05 220); /* Dark blue text */
-  --card: oklch(0.98 0.01 200); /* Light cyan card background */
+  --foreground: oklch(80.76% 0.03329 216.369); /* Dark blue text */
+  --card: oklch(63.311% 0.12616 232.294); /* Light cyan card background */
   --card-foreground: oklch(0.35 0.03 220); /* Gray-blue card text */
   --popover: oklch(1 0 0); /* White popover */
   --popover-foreground: oklch(0.25 0.05 220); /* Dark blue popover text */
