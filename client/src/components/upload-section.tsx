@@ -111,7 +111,7 @@ export function UploadSection() {
           {...getRootProps()}
           className={`
             border-2 border-dashed rounded-xl p-8 text-center cursor-pointer transition-all duration-300 ease-in-out
-            ${isDragActive ? "border-primary bg-blue-50" : "border-border/80 bg-background hover:border-primary/70 hover:bg-blue-50/50"}
+            ${isDragActive ? "border-primary bg-blue-50" : "border-border/80 bg-background hover:bg-gray-200"}
             ${isUploading || uploadResult ? "cursor-default opacity-90" : ""}
           `}
         >
