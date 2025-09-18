@@ -20,11 +20,11 @@ export default function Dashboard() {
 
   return (
     <main className="min-h-screen bg-background">
-      <div className="container mx-auto px-4 py-8 max-w-4xl">
+      <div className="container mx-auto px-4 py-26 max-w-4xl">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl md:text-6xl font-bold text-primary mb-4 text-balance">Documind</h1>
-          <p className="text-xl text-muted-foreground text-pretty">AI-powered PDF analysis and question answering</p>
+          <h1 className="text-xl text-muted-foreground text-pretty">AI-powered PDF analysis and question answering.
+          </h1>
         </div>
 
         {/* Main Content */}
